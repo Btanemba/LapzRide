@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>LapzRide</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="lapz.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+
+<link rel="shortcut icon" href="images/logo.png">
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">		
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+         <div class="grad-bar"></div>
+         <nav class="navbar">
+          <a href="lapz.html"><img src="images/logo.png" alt="Company Logo"></a> 
+           <div class="menu-toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           </div>
+           <ul class="nav no-search">
+             <li class="nav-item"><a href="lapz.html">Home</a></li>
+             <li class="nav-item"><a href="#">About</a></li>
+             <li class="nav-item"><a href="#">Bookings</a></li>
+             <!-- <li class="nav-item"><a href="#">Careers</a></li> -->
+             <li class="nav-item"><a href="#">Contact Us</a></li>
+           </ul>
+         </nav>
+         </div>
+    </div>
+    <!---BOOKING SECTION AND PRICE CHECKING --> 
+    <hr>
+   <div id="booking-section">
+    <div>
+      <form>
+        <h3 class="ride_text">Price Estimate <span style="color: red;">on LAPZ</span></h3>
+        <div class="Book-section">
+          <select name="qoute" id="myInput" class=" form-select-lg mb-3 form-control-time text-dark" aria-label=".form-select-lg example" >
+               <option selected class="text-dark">Select Pickup Location </option>
+               <option value="Veritas">Veritas University</option>
+               <option value="Asokoro">Asokoro</option>
+               <option value="Gwarimpa">Gwarimpa</option>
+               <option value="Katampe">Katampe</option>
+               <option value="Apo">Apo</option>
+               <option value="Dutse">Dutse</option>
+               <option value="Dawaki">Dawaki</option>
+               <option value="Lifecamp">Life Camp</option>
+               <option value="Garki">Garki</option>
+               <option value="Apo">Apo</option>
+               <option value="Galadima">Galadima</option>
+               <option value="Maitama">Maitama</option>
+               <option value="Asokoro">Asokoro</option>
+               <option value="Area">Area 1 - Area 11</option>
+               <option value="Wuse">Wuse Zone 1-6</option>
+               <option value="Lugbe">Lugbe</option>
+               <option value="Airport">Airport</option>
+               <option value="Katampe">Katampe</option>
+               <option value="Kubwa">Kubwa</option>
+               <option value="Lokogoma">Lokogoma</option>
+               <option value="Jahi">Jahi</option>
+               <option value="Idu">Idu</option>
+               <option value="Jabi">Jabi</option>
+               <option value="AYA">AYA</option>
+          </select>
+          <div class="d-none email-bt form-select form-select-lg mb-3 nice-select" tabindex="0"><span class="current">Open this select menu</span><ul class="list"><li class="option selected" data-value="Open this select menu">Open this select menu</li><li class="option " data-value="1">One</li><li class="option " data-value="2">Two</li><li class="option " data-value="3">Three</li></ul></div>
+        </div>
+        <div class="form-group dark">
+          <select name="qoute" id="myInput2" class=" form-select-lg mb-3 form-control-time text-dark" aria-label=".form-select-lg example" >
+                  <option selected class="text-dark">Select Drop off Location</option>
+                  <option value="Veritas">Veritas University</option>
+            <option value="Dawaki">Dawaki</option>
+            <option value="Lifecamp">Life Camp</option>
+            <option value="Garki">Garki</option>
+            <option value="Apo">Apo</option>
+            <option value="Galadima">Galadima</option>
+            <option value="Maitama">Maitama</option>
+            <option value="Asokoro">Asokoro</option>
+            <option value="Area">Area 1 - Area 11</option>
+            <option value="Wuse">Wuse Zone 1- Zone 6</option>
+            <option value="Lugbe">Lugbe</option>
+            <option value="Airport">Airport</option>
+            <option value="Katampe">Katampe</option>
+            <option value="Asokoro">Asokoro</option>
+            <option value="Gwarimpa">Gwarimpa</option>
+            <option value="Katampe">Katampe</option>
+            <option value="Apo">Apo</option>
+            <option value="Dutse">Dutse</option>
+            <option value="Kubwa">Kubwa</option>
+            <option value="Lokogoma">Lokogoma</option>
+            <option value="Jahi">Jahi</option>
+            <option value="Idu">Idu</option>
+            <option value="Jabi">Jabi</option>
+            <option value="AYA">AYA</option>
+            <option value="Veritas">Veritas University</option>
+          </select>
+          <div class="d-none email-bt form-select form-select-lg mb-3 nice-select" tabindex="0"><span class="current">Open this select menu</span><ul class="list"><li class="option selected" data-value="Open this select menu">Open this select menu</li><li class="option " data-value="1">One</li><li class="option " data-value="2">Two</li><li class="option " data-value="3">Three</li></ul></div>
+      </div> 
+      <button class="btn btn-danger float-right mr-4"  type="submit"  onclick="return myFunction ()"> Check Price </button>
+                     <p id="demo" style="font-size: 50px; color: red; padding-top: 30%;"></p>     
+      </form>
+  </div>
+
+  <div class="booking-section">
+    <form>
+            <br>  
+            <h5 class="ride_text">Book a Ride <span style="color: red;">on LAPZ</span></h5>
+            <form method="post" action="booking">
+                <div class="form-group mt-3">
+                  <input type="text" class="email-bt" placeholder="Pick-Up Location" name="pickup"  required />
+                </div>
+                <div class="form-group">
+                  <input type="text" class="email-bt" placeholder="Destination" name="destination" required />
+                </div>
+                <div class="form-group">
+                  <input type="text" class="email-bt" placeholder="Name" name="name" required />
+                </div>
+
+                <div class="form-group dark">
+                  <select name="time" id="time" class=" form-select-lg mb-3 form-control-time text-dark" aria-label=".form-select-lg example" >
+                    <option selected class="text-dark">Select Time</option>
+                    <option value="8am">8am</option>
+                    <option value="11am">11am</option>
+                    <option value="1pm">1pm</option>
+                    <option value="4pm">4pm</option>
+                  </select>
+                  <div class="d-none email-bt form-select form-select-lg mb-3 nice-select" tabindex="0"><span class="current">Open this select menu</span><ul class="list"><li class="option selected" data-value="Open this select menu">Open this select menu</li><li class="option " data-value="1">One</li><li class="option " data-value="2">Two</li><li class="option " data-value="3">Three</li></ul></div>
+                </div> 
+              <div class="form-group">
+                
+                <input type="text" id="date" class="email-bt" placeholder="Select Date" name="date" required />                 
+              </div>   
+
+                <div class="form-group">
+                <input type="text" class="email-bt" placeholder="Phone Number (whatsapp)" name="phone" required />
+                </div>
+
+                <div class="form-group">
+                  <input type="text" class="email-bt" placeholder="Email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <input type="text" class="email-bt" placeholder="Referral Code" name="email" required />
+                </div>
+              
+            <button class="btn btn-danger float-right mr-4"  type="submit"> BOOK </button>
+            </form>
+      </form>
+</div>
+
+
+
+  </div>
+   </div>
+   
+   
+   <div class="section_footer ">
+    <div class="container"> 
+        <div class="">
+          <div class="row">
+              <!-- <div class="col-sm-6 col-md-6 col-lg-3">
+                <h2 class="account_text">Address</h2>
+                <p class="ipsum_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+              </div> -->
+              <div class="col-sm-6 col-md-4">
+                <h2 class="account_text">Links</h2>
+                <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#">Home</span></a></div>
+              <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#about">About</span></a></div>
+              
+              <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#booking">Booking</span></a></div>
+              <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#">Contact Us</span></a></div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+              <h2 class="account_text">Follow Us</h2>
+              <div class="image-ico"> <img src="./images/icons8-whatsapp.svg"/> <span class="fb_text wp-text"><a href="https://wa.me/message/DELOPBK7IEYDL1">Whatsapp</a></span></div>
+              <div class="image-icon"><img src="images/fb-icon.png"><span class="fb_text"><a href="#">Facebook</a></span></div>
+              <div class="image-icon"><img src="images/twitter-icon.png"><span class="fb_text"><a href="#">Twitter</a></span></div>
+              <!-- <div class="image-icon"><img src="images/in-icon.png"><span class="fb_text"><a href="#">Linkedin</a></span></div> -->
+              <!-- <div class="image-icon"><img src="images/youtube-icon.png"><span class="fb_text"><a href="#">Youtube</a></span></div>             -->
+              
+              <div class="image-icon"><img src="images/instagram-icon.png"><span class="fb_text"><a href="#">Instagram</a></span></div>
+             
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <h2 class="account_text">Scan to Book a Ride</h2>
+              <div class="w-50"><img src="images/scanqrcode.jpg"></div>
+            </div>
+            
+      
+        </div>
+        </div>
+        </div>
+    </div>
+      <script src="js/private.js"></script>
+</body>
